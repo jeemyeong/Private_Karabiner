@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<root>
+ <item>
+ <name>Customized by jeemyeong</name>
+   <item>
+     <name>Make HanEng key work in OS X</name>
+     <identifier>private.change_HanEng_to_Control_L_Option_L_Space</identifier>
+     <autogen>__KeyToKey__ KeyCode::JIS_KANA, KeyCode::SPACE, ModifierFlag::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+   </item>
+   <item>
+    <name>Toggle Hanja Key(to Option_L(R)+Return)</name>
+    <identifier>remap.ksc_hanja_to_option_L_return</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::OPTION_L, KeyCode::RETURN, ModifierFlag::OPTION_R</autogen>
+   </item>
+ </item>
+</root>
